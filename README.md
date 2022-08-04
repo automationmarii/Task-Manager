@@ -46,41 +46,38 @@ Run one of the following commands:
 
 ```Output
 
-Sauce Demo Specs
-    √ SD-001 Verify the total product lists are listed in the sauce demo Correctly (6282ms)
-    √ SD-002 Verify Filters are working according to the filtered option (2050ms)
-    √ SD-003 Verify Product Details in Product details page (1299ms)
-    √ SD-004 Verify the Add to cart/Remove Count after added/Removed the product into cart (1421ms)
-    √ SD-005 Verify the Product Details in cart Page after added the product into cart (1731ms)
-    √ SD-006 Verify the Continue shopping and remove after add items in carts page (2166ms)
-    √ SD-007 Verify the Add to cart added details retains after logout and login again (2973ms)
-    √ SD-008 Verify the Add to cart added details in the checkout page (3109ms)
+Task Manager Specs
+    √ TM-002 Validate landing page (8417ms)
+    √ TM-003 Validate ability to add a task
+    √ TM-004 Validate tasks appearing on the ‘all tasks’ page
+    √ TM-005 Validate tasks appearing on the ‘favorites’ page
+    √ TM-006 Validate marking/unmarking a task as done
+    √ TM-007 Validate ability to remove a task
 
 
-  8 passing (29s)
+  6 passing (14s)
 
-
-  (Results)
+ (Results)
 
   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
-  │ Tests:        8                                                                                │
-  │ Passing:      8                                                                                │
+  │ Tests:        6                                                                                │
+  │ Passing:      6                                                                                │
   │ Failing:      0                                                                                │
   │ Pending:      0                                                                                │
   │ Skipped:      0                                                                                │
   │ Screenshots:  0                                                                                │
   │ Video:        true                                                                             │
-  │ Duration:     29 seconds                                                                       │
-  │ Spec Ran:     SauceDemo/SauceDemo.spec.js                                                      │
+  │ Duration:     13 seconds                                                                       │
+  │ Spec Ran:     TaskManager/TaskManager.spec.js                                                  │
   └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+====================================================================================================
 
   (Run Finished)
 
 
        Spec                                              Tests  Passing  Failing  Pending  Skipped
   ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
-  │ √  SauceDemo/SauceDemo.spec.js              00:29        8        8        -        -        - │
+  │ √  TaskManager/TaskManager.spec.js          00:13        6        6        -        -        - │
   └────────────────────────────────────────────────────────────────────────────────────────────────┘
-    √  All specs passed!                        00:29        8        8        -        -        -
-
-====================================================================================================
+    √  All specs passed!                        00:13        6        6        -        -        -

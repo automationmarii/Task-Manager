@@ -120,6 +120,19 @@ Cypress.Commands.add('selectSideNavBar', (sideNav) => {
   })
  })
 
+ //This method used to Get the side nav bar items
+
+Cypress.Commands.add('sideNavBarItems', () => {
+  let sideBarItems=[]
+  cy.get('.mat-list-item.sidenav-item .mat-list-item-content').each((el,index)=>
+  {
+    sideBarItems.push(el.text().trim())
+  }).then(()=>
+  {
+    return sideBarItems
+  })
+ })
+
 
  //This method used to select the tasks lists in the My day page
 

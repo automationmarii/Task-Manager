@@ -2,11 +2,11 @@
 
   "$schema":"https://on.cypress.io/cypress.schema.json",
               
-   "taskTimeout": 50000,
-   "defaultCommandTimeout":50000,
-   "pageLoadTimeout":50000, 
-   "responseTimeout":50000,
-   "requestTimeout":50000,               
+   "taskTimeout": 7000,
+   "defaultCommandTimeout":7000,
+   "pageLoadTimeout":7000, 
+   "responseTimeout":7000,
+   "requestTimeout":7000,               
    "video": true,
    "pluginsFile": "cypress/plugins/index.js",  
    "viewportHeight": 968,      
