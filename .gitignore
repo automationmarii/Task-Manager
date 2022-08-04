@@ -1,0 +1,11 @@
+node_modules/
+build
+debug.log
+.env
+.DS_Store
+package-lock.json
+Downloads
+downloads
+videos
+cypress/screenshots/
+

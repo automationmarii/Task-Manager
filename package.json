@@ -1,0 +1,21 @@
+{
+  "name": "taskmanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-runner": "npx cypress open",
+    "taskmanager-chrome": "npx cypress run --browser chrome --reporter mochawesome --spec cypress/integration/TaskManager/TaskManager.spec.js",
+    "taskmanager-firefox": "npx cypress run --browser firefox --reporter mochawesome --spec cypress/integration/TaskManager/TaskManager.spec.js",
+    "taskmanager-edge": "npx cypress run --browser edge --reporter mochawesome --spec cypress/integration/TaskManager/TaskManager.spec.js"
+    
+  },
+  "author": "mariyappan",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.4",
+    "cypress-mochawesome-reporter": "^3.0.1",
+    "cypress-wait-until": "^1.7.1"
+    
+  }
+}
